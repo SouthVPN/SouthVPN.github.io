@@ -1,0 +1,128 @@
+.title {
+    float: left;
+    width: 201px;
+    height: 58.75px;
+
+}
+
+
+.button {
+    float: left;
+    color: black;
+    padding: 16.5px;
+}
+
+.upbar {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 58.75px;
+    width: 100%;
+    border-radius: 99px;
+}
+
+.spazioy {
+    float: left;
+    width: 0px;
+    height: 57.75px;
+    border: 0.5px solid grey;
+}
+
+.spaziox {
+    width: 100%;
+    height: 50px;
+}
+
+.descrizione {
+    float: right;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+.thebox {
+    height: 85%;
+    width: 30%;
+
+    border-radius: 5px;
+    background-image: linear-gradient(#ff2010, #ffbe46);
+    float: left;
+    margin-left: 20px;
+}
+
+.onhover:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+.price {
+    width: 190px;
+    height: 275px;
+    background-color: white;
+    margin-left: 5px;
+    text-align: center;
+    float: left;
+}
+
+.price1 {
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    float: left;
+    margin-top: 30px;
+}
+
+.bestchoice {
+    width: 200px;
+    height: 305px;
+    text-align: center;
+    background-image: linear-gradient(purple, blue);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    float: left;
+}
+
+.border {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    height: 36px;
+}
+
+.priceempty {
+    width: 190px;
+    height: 570px;
+    margin-left: 5px;
+    text-align: center;
+    float: left
+}
+
+.data {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 190px;
+    height: 36px;
+    color: green;
+    ;
+}
+
+.fortniti {
+	background: linear-gradient(-45deg, purple, #e73c7e, #23a6d5, blue);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
